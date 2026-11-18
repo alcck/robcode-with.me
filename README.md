@@ -1,4 +1,4 @@
-![RobCode Logo](assets/logo.jpg)
+![RobCode Logo](assets/logo.jfif)
 
 # RobCode EdTech Platform
 Bridging software engineering, robotics, and interactive classroom learning.# RobCode | EdTech Coding Sandbox & STEM Lesson Dashboard
