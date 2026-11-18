@@ -61,3 +61,45 @@ robcode-with-me/
 │
 ├── .gitignore                   # Ignored files (node_modules, .env, dist)
 └── README.md                    # Project documentation
+
+⚙️ Getting Started & Local Installation
+Follow these instructions to set up the project locally on your machine.
+
+Prerequisites
+Node.js (v18 or higher recommended) installed on your system.
+
+MongoDB (Local instance or MongoDB Atlas cloud cluster URI).
+
+1. Clone the Repository
+Bash
+git clone [https://github.com/alcck/robcode-with-me.git](https://github.com/alcck/robcode-with-me.git)
+cd robcode-with-me
+2. Set Up the Backend
+Bash
+cd server
+npm install
+Create a .env file inside the server/ folder and add your configuration:
+
+Plaintext
+PORT=5000
+MONGO_URI=your_mongodb_connection_string_here
+JWT_SECRET=your_jwt_secret_key
+Start the development server:
+
+Bash
+npm run dev
+3. Set Up the Frontend
+Open a new terminal window, navigate to the client folder, install dependencies, and launch:
+
+Bash
+cd client
+npm install
+npm run dev
+Open your browser and navigate to the local URL provided by Vite (typically http://localhost:5173).
+
+👩‍💻 Author
+Almina Gökçe Çiçek
+
+Junior Software Engineer & Robotics Educator
+
+GitHub Profile
