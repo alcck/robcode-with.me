@@ -1,15 +1,29 @@
 {
-  "name": "edtech-server",
+  "name": "edtech-coding-sandbox-server",
   "version": "1.0.0",
-  "description": "Backend API for EdTech Coding Sandbox",
-  "main": "server.js",
+  "description": "Backend API for EdTech Interactive Coding Sandbox and Lesson Dashboard",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
   },
+  "keywords": [
+    "edtech",
+    "coding",
+    "sandbox",
+    "education",
+    "react",
+    "node"
+  ],
+  "author": "Almina Gökçe Çiçek",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
