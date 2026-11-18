@@ -1,4 +1,7 @@
-# RobCode | EdTech Coding Sandbox & STEM Lesson Dashboard
+![RobCode Logo](assets/logo.jpg)
+
+# RobCode EdTech Platform
+Bridging software engineering, robotics, and interactive classroom learning.# RobCode | EdTech Coding Sandbox & STEM Lesson Dashboard
 
 **RobCode** is a full-stack educational web application designed for K-12 students and educators. It bridges the gap between software development and robotics/STEM education by providing an interactive coding playground, gamified learning modules, and a comprehensive educator analytics dashboard.
 
